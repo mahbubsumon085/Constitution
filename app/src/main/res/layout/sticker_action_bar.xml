@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill_horizontal"
+    android:focusable="true" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3B444B" >
+
+
+        <TextView
+            android:id="@+id/tv_mid_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:maxEms="6"
+            android:text="Constitution"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:textSize="17dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

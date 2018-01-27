@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+ <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:textColor="#008000"
+
+        android:gravity="center_vertical"
+        tools:text="@string/app_name"
+        android:textSize="19dp" />
+ <com.example.mami.myapplication.viewbinder.ClickPreventableTextView
+     android:id="@+id/tv_message"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_marginLeft="5dp"
+     android:textStyle="normal"
+     android:clickable="true"
+     android:textColor="#37474F"
+     android:gravity="center_vertical"
+     android:textSize="17dp" />
+</LinearLayout>
